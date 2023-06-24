@@ -1,0 +1,33 @@
+<div class="container mt-3">
+  <div class="row">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-header bg-success text-white">
+        <h1 class="display-3">{{msg.toUpperCase()}}</h1>
+      </div>
+      <div class="card-body">
+        <h2>&#8377;{{price.toFixed(2)}}</h2>
+        <h2>{{price | currency : 'INR'}}</h2>
+        <h3>{{10*25}}</h3>
+        <h3>{{getDate()}}</h3>
+        <h3>{{getTime()}}</h3>
+<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet deleniti eius est, nobis officia quaerat quasi quos rerum tempore. Aut deserunt eaque nemo recusandae suscipit. Accusantium dolorem esse eum hic?</p>
+
+      </div>
+    </div>
+  </div>
+
+
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header bg-secondary text-white">
+           <h2 class="display-3">Digital Watch</h2>
+        </div>
+        <div class="card-body bg-light">
+              <h2 class="display-4">{{time}}</h2>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
