@@ -23,7 +23,7 @@ export class MsgCardComponent implements OnInit {
   }
 */
   public displayMsg(value:string){
-    this.msg=value;
+    this.msg = value;
   }
 
 
