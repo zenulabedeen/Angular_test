@@ -13,6 +13,6 @@ export class InfoCardComponent implements OnInit {
   }
 
   public send(elem:HTMLParagraphElement){
-    this.serverMessage= elem.innerText;
+    this.serverMessage = elem.innerText;
   }
 }
